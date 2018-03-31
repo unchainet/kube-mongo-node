@@ -14,7 +14,7 @@ spec:
         name: web
     spec:
       containers:
-      - image: localhost:5000/unchainet-website:0.1.0
+      - image: unchainet-demo-website:0.1.0
         name: web
         ports:
         - containerPort: 3000
